@@ -1,17 +1,15 @@
 {
-    "$schema": "https://biomejs.dev/schemas/1.5.2/schema.json",
-    "files": {
-        "ignoreUnknown": true,
-        "include": [
-            "src/sub/**"
-        ]
-    },
-    "formatter": {
-        "enabled": true
-    },
-    "vcs": {
-        "enabled": true,
-        "useIgnoreFile": true,
-        "clientKind": "git"
-    }
+	"$schema": "https://biomejs.dev/schemas/1.5.2/schema.json",
+	"files": {
+		"ignoreUnknown": true,
+		"include": ["src/sub/**/*"]
+	},
+	"formatter": {
+		"enabled": true
+	},
+	"vcs": {
+		"enabled": true,
+		"useIgnoreFile": true,
+		"clientKind": "git"
+	}
 }
